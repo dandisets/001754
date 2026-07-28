@@ -48,8 +48,8 @@ assetsSummary:
   - SpatialSeries
   - Position
 citation: Knierim, James J.; McNaughton, Bruce L.; Poe, Gina R. (2026) Three-dimensional
-  spatial selectivity of hippocampal neurons during space flight (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/001754/draft
+  spatial selectivity of hippocampal neurons during space flight (Version 0.260728.1352)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001754/0.260728.1352
 contributor:
 - affiliation:
   - identifier: https://ror.org/03gds6c39
@@ -143,6 +143,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-02-23T20:35:48.741625+00:00'
+datePublished: '2026-07-28T13:52:37.826522+00:00'
 description: This dataset contains extracellular recordings from hippocampal place
   cells in three freely moving rats during the Neurolab Space Shuttle mission (STS-90)
   in April 1998. The experiment investigated whether the hippocampus can maintain
@@ -161,12 +162,13 @@ description: This dataset contains extracellular recordings from hippocampal pla
   also recorded, showing normal theta rhythm during locomotion and normal sharp waves
   and ripples during quiet rest. Rats received medial forebrain bundle stimulation
   as a reward for traversing the track.
+doi: 10.48324/dandi.001754/0.260728.1352
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: University of Arizona IACUC
   schemaKey: EthicsApproval
-id: DANDI:001754/draft
+id: DANDI:001754/0.260728.1352
 identifier: DANDI:001754
 keywords:
 - hippocampus
@@ -182,13 +184,26 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001754/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001754/0.260728.1352/assets.yaml
 name: Three-dimensional spatial selectivity of hippocampal neurons during space flight
+publishedBy:
+  endDate: '2026-07-28T13:52:37.826522+00:00'
+  id: urn:uuid:e64907cf-1d72-44fc-9866-cab3e92cb412
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-07-28T13:52:37.826522+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:be39955b-e953-4dc2-bcfe-447592fd9aa6
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: doi:10.1038/72910
   name: Three-dimensional spatial selectivity of hippocampal neurons during space
     flight
   relation: dcite:IsDescribedBy
+  repository: Nature Neuroscience
   resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://doi.org/10.1038/72910
@@ -215,8 +230,8 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/001754/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001754/0.260728.1352
+version: 0.260728.1352
 wasGeneratedBy:
 - description: NASA Neurolab mission aboard Space Shuttle Columbia, April 17 - May
     3, 1998. Dedicated to neuroscience research in microgravity.
