@@ -189,6 +189,7 @@ relatedResource:
   name: Three-dimensional spatial selectivity of hippocampal neurons during space
     flight
   relation: dcite:IsDescribedBy
+  repository: Nature Neuroscience
   resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://doi.org/10.1038/72910
