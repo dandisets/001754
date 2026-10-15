@@ -15,9 +15,38 @@ access:
   schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 32061840
+  numberOfFiles: 8
+  numberOfSubjects: 3
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ProcessingModule
+  - Units
+  - ElectrodeGroup
+  - Position
+  - SpatialSeries
 citation: Knierim, James J.; McNaughton, Bruce L.; Poe, Gina R. (2026) Three-dimensional
   spatial selectivity of hippocampal neurons during space flight (Version draft) [Data
   set]. DANDI Archive. https://dandiarchive.org/dandiset/001754/draft
@@ -119,19 +148,19 @@ description: This dataset contains extracellular recordings from hippocampal pla
   in April 1998. The experiment investigated whether the hippocampus can maintain
   stable spatial representations during three-dimensional navigation in microgravity.
   Rats were implanted with multi-electrode recording arrays and trained to traverse
-  a three-dimensional track called the "Escher staircase," in which three 90-degree
+  a three-dimensional track called the “Escher staircase,” in which three 90-degree
   yaw turns were interleaved with three 90-degree pitch turns, creating a closed loop
   after only 270 degrees of total yaw rotation. This design placed the spatial information
   from external landmarks in conflict with the expected input from the head-direction
   system, which normally requires 360 degrees of yaw to signal a return to the starting
-  direction. The dataset includes both preflight recordings on a flat rectangular
-  track and in-flight recordings on the Escher staircase track from flight days 4
-  and 9. Place cells eventually demonstrated normal spatially specific firing, with
-  spatial information content comparable to preflight levels, though initial exposures
-  on flight day 4 showed abnormal spatial selectivity patterns. Hippocampal EEG was
-  also recorded, showing normal theta rhythm during locomotion and normal sharp waves
-  and ripples during quiet rest. Rats received medial forebrain bundle stimulation
-  as a reward for traversing the track.
+  direction. The dataset includes preflight recordings and in-flight recordings from
+  flight days 4 and 9. Both are divided into Escher staircase (ES) and Magic Carpet
+  (MC) epochs, each with its own rate maps. Place cells eventually demonstrated normal
+  spatially specific firing, with spatial information content comparable to preflight
+  levels, though initial exposures on flight day 4 showed abnormal spatial selectivity
+  patterns. Hippocampal EEG was recorded during the experiment, but it is not included
+  in this dataset. Rats received medial forebrain bundle stimulation as a reward for
+  traversing the track.
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
